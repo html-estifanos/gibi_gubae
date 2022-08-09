@@ -15,27 +15,36 @@
         <nav class="navbar bg-primary bg-opacity-10">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="#">
-                    <img src="images/mk-logo11.png" alt="" width="35" height="30" class="d-inline-block align-text-top">
+                    <img src="images/main-header-am-2.png" alt="" width="auto" height="50" class="d-inline-block align-text-top">
                      Maraki Gibi Gubae - Official
                 </a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                <ul class="nav nav-tabs justify-content-end">
+                    <li class="nav-item dropdown"><!--add the department's infos here-->
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item"><!--all notices here but under accounts each gets customized for their specific departments-->
                         <a href="#" class="nav-link">NoticeBoard</a>
                      </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Register/Accounts</a>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Register/Accounts</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">Register</li>
+                            <li class="dropdown-item">Login</li>
+                        </ul>
                     </li>
                     <li class="nav-item"> 
-                        <a href="#" class="nav-link">Representatives Login</a>
+                        <a href="#" class="nav-link active">Login Reps</a>
                     </li>
                     <li class="nav-item"> 
                         <a href="#" class="nav-link">Resoureces</a>
                     </li>
-                    <li class="nav-item"> 
-                        <a href="#" class="nav-link">Library</a>
+                    <li class="nav-item dropdown"> 
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Library</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li class="dropdown-item" >Books List</li>
+                            <li class="dropdown-item-text">Books Request</li>
+                            <li class="dropdown-item-text">Books Delivery</li>
+                        </ul>
                     </li>
                     <li class="nav-item"> 
                         <a href="#" class="nav-link" ><i class="bi bi-question-octagon"><abbr  title="Frequently Asked Questions">FAQ</abbr></i></a>
@@ -44,7 +53,20 @@
             </div>
       </nav>
     </header>
-    <div class="container" style="background-color:rgba(216, 215, 215, 0.507); font-family:Georgia, 'Times New Roman', Times, serif; font-size: medium; font-weight: 200;">
+    <div id="sudo-nav" class="container-fluid" >
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Mezmur Kifil</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Timihirt Kifil</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Moy and Terado Kifil</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container" style="margin-top: 10px; background-color:rgba(216, 215, 215, 0.507); font-family:Georgia, 'Times New Roman', Times, serif; font-size: medium; font-weight: 200; padding: 5px;">
         <p><strong>by John Nichiporuk</strong></p>
         <p>We were recently asked the following question:</p>
         <blockquote><p>“Why is it so wrong to say that the Spirit also proceeds from the Son, if He indeed is co-eternal with the Father?</p></blockquote>
